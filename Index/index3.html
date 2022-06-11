@@ -1,0 +1,59 @@
+    <html>
+        <head>
+            <title>Image Viewer DOM </title>
+                <link rel="stylesheet" href="style3.css">
+         </head>
+    <body>
+            <!-- image view container -->
+            <div class="row">
+                <div class="col-3">
+            <!-- blank -->
+            </div>
+        <div class="col-6">
+            <div id="picContainer">
+                <div class="row">
+                    <div class="col-8">
+                        <img id="imgViewer" class="prev" src="bom.png">
+         </div>
+            <div class="col-4">
+ <!-- title and description -->
+            <h3 id="topicTtl">Title</h3>
+        <p id="topicDescrpt">Description</p>
+            </div>
+            </div>
+        </div>
+            </div>
+        <div class="col-3">
+        <!-- blank -->
+            </div>
+        </div>
+        <!-- hover or clicked to display -->
+            <div class="row">
+            <div class="col-3">
+            <!--blank-->
+            </div>
+        <div class="col-2">
+            <div class="optContainer">
+            <img id="imgOption1" alt="no image" src="bom.png"
+                class="imgSelected" onmouseover="previewImg1(this)">
+            </div>
+            </div>
+            <div class="col-2">
+         <div class="optContainer">
+                <img id="imgOption1" alt="no image" src="dom.png"
+            class="imgSelected" onmouseover="previewImg2(this)">
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="optContainer">
+                <img id="imgOption1" alt="no image" src="intro1.png"
+            class="imgSelected" onmouseover="previewImg3(this)">
+        </div>
+        </div>
+             <div class="col-3">
+            <!--blank-->
+            </div>
+        </div>
+            <script src="script1.js"> </script>
+    </body>
+ </html>
